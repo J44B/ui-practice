@@ -85,6 +85,10 @@ const UIcourse = () => {
                         <div className="bg-slate-400 h-2 w-2 rounded-full"></div>
                     </div>
                 </div>
+                <div className="flex justify-between -m-16">
+                    <img src="./src/assets/images/Circle-left.svg" alt="" />
+                    <img src="./src/assets/images/Circle-right.svg" alt="" />
+                </div>
             </section>
         </>
     );

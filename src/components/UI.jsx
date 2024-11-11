@@ -35,6 +35,10 @@ const UI = () => {
                     <div className="group2Imgs flex justify-center">
                         <img src="./src/assets/images/Arrow.svg" alt="" />
                     </div>
+
+                    <div className="circleContainer relative">
+                        <img className="absolute right-48" src="./src/assets/images/Circle-mid.svg" alt="" />
+                    </div>
                 </div>
             </section>
         </>
