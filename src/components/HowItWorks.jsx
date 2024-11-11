@@ -1,6 +1,6 @@
 export function HowItWorks() {
     return (
-        <div id="main-page-01" className="max-w-[1440px] mx-auto bg-[#F0F0F0]">
+        <div id="main-page-01" className="p-16 mx-auto bg-[#F0F0F0]">
             <div id="2022" className="flex flex-row-reverse mr-16 font-bold">
                 <p>2022</p>
             </div>
@@ -36,7 +36,7 @@ export function HowItWorks() {
                         <img
                             src="/src/assets/images/UI-flipped.png"
                             alt=""
-                            className="absolute"
+                            className="absolute -mr-16"
                         />
                     </div>
                     <div
