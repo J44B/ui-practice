@@ -1,4 +1,4 @@
-
+import { HowItWorks } from './components/HowItWorks';
 import UI from './components/UI.jsx'
 import UIcourse from './components/UIcourse.jsx'
 import UInewsletter from './components/UInewsletter.jsx';
@@ -9,6 +9,7 @@ function App() {
             <Header />
             <UI/>
             <UIcourse/>
+            <HowItWorks />
             <UInewsletter/>
         </>
     );
