@@ -1,12 +1,11 @@
 import Navbar from './Navbar';
-import image1 from "../assets/images/Image1.png";
-import UI1 from "../assets/images/UI1.jpg";
+
 const Header = () => {
   return (
-<div className=" h-screen bg-white text-black">
+<div className=" bg-[#F0F0F0] text-black">
   <Navbar />
   {/* Main Content */}
-  <div>
+  <div className='flex'>
   <div className=" flex flex-col items-start px-8 text-start h-full justify-start space-y-10">
     {/* Large Title */}
     <div className="flex items-baseline ml-8">
@@ -35,31 +34,23 @@ const Header = () => {
     </div>
   </div>
   {/* Right Side Images */}
-  <div className="absolute inset-0 flex justify-end items-center">
-        <div className="relative w-[80%] max-w-[600px] h-auto top-20 right-40">
+  <div className="heroImage z10">
+        <div className="">
           <img
-            src={image1}
+            src="./src/assets/images/header-UI.svg"
             alt="Person"
-            className="w-full h-auto object-cover "
-          />
-        </div>
-        <div className="absolute w-[70%] max-w-[700px] h-auto opacity-70">
-          <img
-            src={UI1}
-            alt="U"
-            className="w-full h-auto object-contain"
+            className="w-full h-auto object-cover z-10"
           />
         </div>
   </div>
-
-  <div className="flex flex-row justify-between items-center bg-black text-white text-2xl mt-20 w-full h-40">
-    <p className=" bg-black text-white px-6 py-2 font-semibold border-white">Join the Community
+</div>
+<div className="blackBar -mt-44 flex flex-row justify-between items-center bg-black text-white text-2xl w-full h-44 z-50">
+    <p className="z-50 bg-black text-white px-6 py-2 font-semibold border-white">Join the Community
       <i className="fa-solid fa-square px-2 text-white text-xl"></i></p>
-    <p className=" bg-black text-white px-6 py-2 border-white border mr-10"> 
+    <p className="z-50 bg-black text-white px-6 py-2 border-white border mr-10"> 
       EDITION <p className='text-center text-2xl font-semibold'>2022</p></p>
   
   </div>
-</div>
 </div>
   );
 };
