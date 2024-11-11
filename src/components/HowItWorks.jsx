@@ -26,7 +26,7 @@ export function HowItWorks() {
                 <div id="image-with-text" className="relative">
                     <p
                         id="main-text"
-                        className="absolute mt-56 font-bold text-normal"
+                        className="absolute mt-24 font-bold text-normal"
                     >
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore
