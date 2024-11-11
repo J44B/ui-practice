@@ -1,7 +1,11 @@
+import UI from './components/UI.jsx'
+import UIcourse from './components/UIcourse.jsx'
+
 function App() {
     return (
         <>
-            <h1>Hello Team!</h1>
+            <UI/>
+            <UIcourse/>
         </>
     );
 }
