@@ -1,7 +1,9 @@
+import { HowItWorks } from './components/HowItWorks';
+
 function App() {
     return (
         <>
-            <h1>Hello Team!</h1>
+            <HowItWorks />
         </>
     );
 }
